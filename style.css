@@ -30,7 +30,7 @@ body{
     color: #001e4d;
     font-weight: 600;
 }
-.bnt{
+.btn{
     background: #fff;
     color: #222;
     font-weight: 500;
@@ -43,7 +43,19 @@ body{
     cursor: pointer;
     transition: all 0.3s;
 }
-.bnt:hover{
+.btn:hover{
     background: #222;
     color: #fff;
+}
+#next-btn{
+    background: #001e4d;
+    color: #fff;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
 }
