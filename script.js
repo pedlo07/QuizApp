@@ -1,92 +1,92 @@
 const questions = [
     {
-        question: " Qual é o maior rio do mundo? ",
+        question: " Na série Stranger Things, qual é o nome do mundo paralelo habitado por criaturas assustadoras? ",
         answers: [
-            {text: "Amazonas", correct: false},
-            {text: "Nilo", correct: true},
-            {text: "Yangtzé", correct: false},
-            {text: "Mississipi", correct: false},
+            {text: "O Mundo Invertido", correct: true},
+            {text: "O Mundo Desconhecido", correct: false},
+            {text: "O Mundo Sombrio", correct: false},
+            {text: "O Mundo Alternativo", correct: false},
         ]
     },
     {
-        question: " Qual é o símbolo químico para o ouro? ",
+        question: " Qual é o nome do personagem principal em One Piece, que está em busca do tesouro conhecido como One Piece? ",
         answers: [
-            {text: "Au", correct: false},
-            {text: "Ag", correct: true},
-            {text: "Fe", correct: false},
-            {text: "Hg", correct: false},
+            {text: "Shanks", correct: false},
+            {text: "Portgas D. Ace", correct: false},
+            {text: "Monkey D. Luffy", correct: true},
+            {text: "Shuya Goenji", correct: false},
         ]
     },
     {
-        question: " ",
+        question: " Qual filme dirigido por Christopher Nolan explora a ideia de viagem no tempo e manipulação da mente? ",
         answers: [
-            {text: "answer", correct: false},
-            {text: "answer", correct: true},
-            {text: "answer", correct: false},
-            {text: "answer", correct: false},
+            {text: "Inception", correct: false},
+            {text: "Interstellar", correct: true},
+            {text: "Dunkirk", correct: false},
+            {text: "The Prestige", correct: false},
         ]
     },
     {
-        question: " ",
+        question: " Em Toy Story, qual é o nome do cowboy de brinquedo que é o protagonista da história? ",
         answers: [
-            {text: "answer", correct: false},
-            {text: "answer", correct: true},
-            {text: "answer", correct: false},
-            {text: "answer", correct: false},
+            {text: "Slinky Dog", correct: false},
+            {text: "Buzz Lightyear", correct: false},
+            {text: "Mr. Potato Head", correct: false},
+            {text: "Woody", correct: true},
         ]
     },
     {
-        question: " ",
+        question: " Qual é o nome do arqueólogo aventureiro interpretado por Harrison Ford em uma famosa franquia de filmes? ",
         answers: [
-            {text: "answer", correct: false},
-            {text: "answer", correct: true},
-            {text: "answer", correct: false},
-            {text: "answer", correct: false},
+            {text: "Indiana Jones", correct: true},
+            {text: "James Bond", correct: false},
+            {text: "Han Solo", correct: false},
+            {text: "Luke Skywalker", correct: false},
         ]
     },
     {
-        question: " ",
+        question: " Em O Poderoso Chefão, qual ator interpreta o personagem principal, Michael Corleone? ",
         answers: [
-            {text: "answer", correct: false},
-            {text: "answer", correct: true},
-            {text: "answer", correct: false},
-            {text: "answer", correct: false},
+            {text: "Al Pacino", correct: true},
+            {text: "Marlon Brando", correct: false},
+            {text: "Robert De Niro", correct: false},
+            {text: "James Caan", correct: false},
         ]
     },
     {
-        question: " ",
+        question: " Em Akira, qual é o nome do protagonista que desenvolve habilidades psíquicas após um acidente envolvendo uma misteriosa entidade? ",
         answers: [
-            {text: "answer", correct: false},
-            {text: "answer", correct: true},
-            {text: "answer", correct: false},
-            {text: "answer", correct: false},
+            {text: "Kaneda Shotaro", correct: false},
+            {text: "Akira Takizawa", correct: false},
+            {text: "Tetsuo Shima", correct: true},
+            {text: "Ryuunosuke Yamaguchi", correct: false},
         ]
     },
     {
-        question: " ",
+        question: " Quem é o autor do mangá Attack on Titan? ",
         answers: [
-            {text: "answer", correct: false},
-            {text: "answer", correct: true},
-            {text: "answer", correct: false},
-            {text: "answer", correct: false},
+            {text: "Masashi Kishimoto", correct: false},
+            {text: "Hajime Isayama", correct: true},
+            {text: "Eiichiro Oda", correct: false},
+            {text: "Tite Kubo", correct: false},
         ]
     },
     {
-        question: " ",
+        question: " Qual é o nome do pirata que era conhecido como Barba Branca em One Piece? ",
         answers: [
-            {text: "answer", correct: false},
-            {text: "answer", correct: true},
-            {text: "answer", correct: false},
-            {text: "answer", correct: false},
+            {text: "Gol D. Roger", correct: false},
+            {text: "Marshall D. Teach", correct: false},
+            {text: "Silvers Rayleigh", correct: false},
+            {text: "Edward Newgate", correct: true},
         ]
     },
     {
-        question: " ",
+        question: " Qual é o nome do navio de Gol D. Roger em One Piece? ",
         answers: [
-            {text: "answer", correct: false},
-            {text: "answer", correct: true},
-            {text: "answer", correct: false},
-            {text: "answer", correct: false},
+            {text: "Red Force", correct: false},
+            {text: "Oro Jackson", correct: true},
+            {text: "Going Merry", correct: false},
+            {text: "Thousand Sunny", correct: false},
         ]
     }
 ]
@@ -151,8 +151,8 @@ function selectAnswer (e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = "Play Again";
+    questionElement.innerHTML = `Você acertou ${score} das ${questions.length} questões!`;
+    nextButton.innerHTML = "Jogar Novamente";
     nextButton.style.display = "block";
 
 }
