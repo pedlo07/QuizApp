@@ -5,13 +5,14 @@
     box-sizing: border-box;
 }
 body{
+    
     background-image: url(images/one-piece-for-desktop-thousand-sunny-ship-ocean-clouds-artwork-wallpaper-1920x1080-wallpaper.jpg);
-    background-size: auto;
+    background-size: cover;
 }
 .app{
     background: #fff;
-    width: 90%;
-    max-width: 600px;
+    width: 110%;
+    max-width: 700px;
     margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
